@@ -67,6 +67,12 @@ h1, .h1 {
 #logo-github {
   display: flex;
   height: 50px;
+  border-radius: 100%;
+}
+
+#logo-github:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 20px rgb(255, 255, 255);
 }
 
 footer div {
