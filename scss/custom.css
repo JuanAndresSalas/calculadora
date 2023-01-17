@@ -64,6 +64,20 @@ h1, .h1 {
   background-color: rgb(38, 177, 38) !important;
 }
 
+#logo-github {
+  display: flex;
+  height: 50px;
+}
+
+footer div {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  color: rgb(240, 236, 236);
+  font-size: 20px;
+  padding: 2%;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
