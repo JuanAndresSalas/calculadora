@@ -82,10 +82,11 @@ $("#clear").click(function(){
 
 $("#igual").click(function(){
     operandoB = parseFloat(pantalla);
-    if(operandoB == undefined){
+
+    if(pantalla == "" || (operandoB == 0 && operacion == "division")){
         $("#resultado").text("ERROR");
-        console.log(operandoB)
-    }else{
+        
+    }else if(operandoB != 0){
         switch(operacion){
             case "suma":
                 operandoB = parseFloat(pantalla);
